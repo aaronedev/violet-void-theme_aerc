@@ -1,0 +1,101 @@
+#
+# aerc violet-void-theme styleset
+#
+*.default=true
+*.normal=true
+default.bg=#0F0F0F
+border.fg=#0F0F0F
+title.bg=#4b8afe
+title.fg=#0F0F0F
+title.bold=true
+
+header.bold=true
+header.fg=#42ffad
+tab.selected.fg=#0F0F0F
+tab.selected.bg=#42ffad
+tab.selected.bold=true
+tab.fg=#70c8ff
+tab.bg=#0e0e0e
+dirlist*.selected.bg=#1b1b1b
+dirlist*.selected.fg=#29adff
+dirlist*.selected.bold=true
+dirlist*.selected.italic=false
+
+*error.bold=true
+*error.fg=red
+*warning.fg=yellow
+*success.fg=green
+
+statusline_default.bg=#181818
+statusline_default.fg=#42ffad
+statusline_error.fg=#ff004b
+statusline_success.fg=#42ff97
+statusline_warning.fg=#ff7c7e
+msglist_unread.fg=#f0f0f5
+msglist_unread.bold=true
+msglist_deleted.fg=#303030
+msglist_*.selected.bg=#1b1b1b
+msglist_*.selected.fg=#b6e3ff
+msglist_result.bg=#181818
+msglist_result.fg=#42ffad
+msglist_marked.fg=#f0f0f5
+msglist_marked.selected.fg=#f0f0f5
+msglist_marked.bg=#212121
+msglist_marked.selected.bg=#303030
+msglist_pill.reverse=true
+
+part_*.fg=#414141
+part_mimetype.fg=#7c60d1
+part_*.selected.fg=#42ffad
+part_*.selected.bg=#1b1b1b
+part_filename.selected.bold=true
+
+completion_pill.reverse=false
+selector_focused.bold=false
+selector_focused.bg=#303030
+selector_focused.fg=#42ffad
+selector_chooser.bold=false
+selector_chooser.bg=#303030
+selector_chooser.fg=#69458f
+default.selected.bold=true
+default.selected.fg=#42ffad
+default.selected.bg=#1b1b1b
+
+completion_default.selected.bg=#242424
+completion_default.selected.fg=#42ff97
+# [viewer]
+# *.default=true
+# *.normal=true
+# url.underline=true
+# header.bold=true
+# signature.dim=true
+# diff_meta.bold=true
+# diff_chunk.dim=true
+# diff_add.fg=2
+# diff_del.fg=1
+# quote_*.fg=6
+# quote_*.dim=true
+# quote_1.dim=false
+
+[viewer]
+*.default=true
+*.normal=true
+url.underline=true
+url.fg=#29adff
+header.bold=true
+header.fg=#42ffad
+signature.dim=true
+signature.fg=#303030
+diff_meta.bold=true
+diff_meta.fg=#fd7cff
+diff_chunk.dim=true
+diff_add.fg=2
+diff_del.fg=1
+quote_*.fg=6
+quote_*.dim=true
+quote_1.fg=#42ffad
+quote_1.dim=false
+quote_2.fg=#00a8a4
+quote_3.fg=#303030
+
+# vim:filetype=dosini
